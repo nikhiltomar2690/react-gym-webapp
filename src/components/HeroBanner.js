@@ -17,7 +17,7 @@ const HeroBanner = () => {
       position="relative"
       p="20px"
     >
-      <Typography color="#ff2625" fontWeight="600" fontSize="26px">
+      <Typography color="#2A3950" fontWeight="600" fontSize="26px">
         Fitness Club
       </Typography>
       <Typography
@@ -40,7 +40,7 @@ const HeroBanner = () => {
         variant="contained"
         href="#exercises"
         sx={{
-          backgroundColor: "#ff2625",
+          backgroundColor: "#2A3950",
           padding: "10px",
         }}
       >
@@ -48,7 +48,7 @@ const HeroBanner = () => {
       </Button>
       <Typography
         fontWeight="600"
-        color="#ff2625"
+        color="#2A3950"
         sx={{
           opacity: 0.1,
           display: {
