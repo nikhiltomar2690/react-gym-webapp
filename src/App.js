@@ -9,7 +9,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Box width="400px">
+    <Box className="box-wid">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

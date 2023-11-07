@@ -47,11 +47,20 @@ body {
   flex-wrap: wrap;
 }
 
+.search-bar-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .detail-image {
   width: 729px;
   height: 742px;
 }
-
+.box-wid {
+  width: 100%;
+}
 .hero-banner-img {
   position: absolute;
   right: 40px;
@@ -90,9 +99,10 @@ body {
   transform: scale(1.1, 1.1);
 }
 
-.search-btn:hover {
-  color: #ff2625 !important;
-  border: 1px solid #ff2625 !important;
+.search:hover {
+  color: #2a3950 !important;
+  border: 2px solid !important;
+  border-color: #2a3950;
 }
 
 .exercise-video {
@@ -104,6 +114,9 @@ body {
   text-decoration: none;
 }
 
+.MuiBox-root {
+  width: 100% !important;
+}
 @media screen and (max-width: 1200px) {
   .detail-image {
     width: 300px;

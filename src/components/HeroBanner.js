@@ -18,7 +18,7 @@ const HeroBanner = () => {
       p="20px"
     >
       <Typography color="#2A3950" fontWeight="600" fontSize="26px">
-        Fitness Club
+        FitFusion Club
       </Typography>
       <Typography
         fontWeight="700"
@@ -31,7 +31,7 @@ const HeroBanner = () => {
         mb="24px"
         mt="30px"
       >
-        Sweat, Smile <br /> and Repeat
+        Sweat Today, <br /> Shine Tomorrow
       </Typography>
       <Typography fontSize="22px" lineHeight="35px" mb={4}>
         Check out the most effective exercises
@@ -55,8 +55,8 @@ const HeroBanner = () => {
             lg: "block",
             sm: "none",
           },
+          fontSize: { lg: "200px", md: "200px", sm: "100px" },
         }}
-        fontSize="200px"
       >
         Exercise
       </Typography>
